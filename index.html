@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Dashboard</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- App Drawer -->
+    <div class="drawer">
+        <div class="dashboard menuItem">
+            <img src="icons/view-dashboard.svg" alt="">
+            <h1>Dashboard</h1>
+        </div>
+        <div class="menuItem">
+            <img src="icons/home.svg" alt="">
+            <h1>Home</h1>
+        </div>
+        <div class="menuItem">
+            <img src="icons/card-account-details.svg" alt="">
+            <h1>Profile</h1>
+        </div>
+        <div class="menuItem">
+            <img src="icons/message-text.svg" alt="">
+            <h1>Messages</h1>
+        </div>
+        <div class="menuItem">
+            <img src="icons/clock-outline.svg" alt="">
+            <h1>History</h1>
+        </div>
+        <div class="menuItem">
+            <img src="icons/note-multiple.svg" alt="">
+            <h1>Tasks</h1>
+        </div>
+        <div class="menuItem">
+            <img src="icons/account-group.svg" alt="">
+            <h1>Communities</h1>
+        </div>
+        <!-- Need extra spacing, so nth child -->
+        <div class="menuItem">
+            <img src="icons/cog.svg" alt="">
+            <h1>Settings</h1>
+        </div>
+        <div class="menuItem">
+            <img src="icons/message-question.svg" alt="">
+            <h1>Support</h1>
+        </div>
+        <div class="menuItem">
+            <img src="icons/shield-check.svg" alt="">
+            <h1>Privacy</h1>
+        </div>
+    </div>
+
+
+    <!-- Navbar -->
+     <div>
+        <div class="navbar">
+
+        <!-- Top Section -->
+            <div class="topNav">
+                <!-- Search icon and search bar -->
+                 <div class="search">
+                    <div class="menuItem">
+                        <img src="icons/magnify.svg" alt="">
+                    </div>
+                    <input type="text" name="search" autocomplete="off">
+                 </div>
+                 <div class="account">
+                    <div class="menuIcon">
+                        <img src="icons/bell-ring-outline.svg" alt="">
+                    </div>
+                    <!-- Avatar from Github -->
+                    <div class="gh-avatar">
+                        <img src="https://github.com/nwaynwayzayya.png" alt="">
+                    </div>
+                    <!-- Our username -->
+                     <div class="name">Nway Nway Zay Ya</div>
+                 </div>
+            </div>
+
+         <!-- Bottom Section -->
+            <div class="bottom">
+                <!-- Profile Details -->
+                <div class="profile">
+                    <div class="gh-avatar"></div>
+                    <div class="profile-name">
+                        <p class="greeting">Hi there,</p>
+                        <p class="name">Nway Nway Zay Ya <span class="username">(@nwaynwayzayya)</span></p>
+                    </div>
+                </div>
+                <!-- Button section -->
+                <div class="buttons">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Main COntent -->
+      <div>
+        <main class="content">
+            <div class="projects">
+                <h3>Your Projects</h3>
+
+                <!-- Section for all project cards -->
+                <div class="cards">
+                    <!-- Each individual card, we need 6 cards -->
+                    <div class="card">
+                        <h5 class="card-title">Super Cool Project</h5>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab atque id, repellat harum corrupti nobis aliquid maxime cupiditate, iste, suscipit praesentium. Aperiam, expedita quidem fuga modi commodi minima quasi necessitatibus?
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-outline.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Less Cool Project</h5>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab atque id, repellat harum corrupti nobis aliquid maxime cupiditate, iste, suscipit praesentium. Aperiam, expedita quidem fuga modi commodi minima quasi necessitatibus?
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-outline.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Impossible App</h5>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab atque id, repellat harum corrupti nobis aliquid maxime cupiditate, iste, suscipit praesentium. Aperiam, expedita quidem fuga modi commodi minima quasi necessitatibus?
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-outline.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Easy Peasy App</h5>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab atque id, repellat harum corrupti nobis aliquid maxime cupiditate, iste, suscipit praesentium. Aperiam, expedita quidem fuga modi commodi minima quasi necessitatibus?
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-outline.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Ad Blocker</h5>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab atque id, repellat harum corrupti nobis aliquid maxime cupiditate, iste, suscipit praesentium. Aperiam, expedita quidem fuga modi commodi minima quasi necessitatibus?
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-outline.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Money Maker</h5>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab atque id, repellat harum corrupti nobis aliquid maxime cupiditate, iste, suscipit praesentium. Aperiam, expedita quidem fuga modi commodi minima quasi necessitatibus?
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-outline.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side content - Announcements and trending -->
+
+                <!-- Announcements -->
+                 <div class="announcements">
+                    <ul class="card">
+                        <!-- List of individual announcements -->
+                        <li class="announcement">
+                            <h5 class="card-title">Site Maintenance</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quos repudiandae, similique laudantium consequatur ut quia, magni tempore, praesentium atque officiis cum quis voluptates fuga esse id nostrum placeat. Unde.
+                            </p>
+                        </li>
+                        <li class="announcement">
+                            <h5 class="card-title">Community Share Day</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quos repudiandae, similique laudantium consequatur ut quia, magni tempore, praesentium atque officiis cum quis voluptates fuga esse id nostrum placeat. Unde.
+                            </p>
+                        </li>
+                        <li class="announcement">
+                            <h5 class="card-title">Updated Privacy Policy</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quos repudiandae, similique laudantium consequatur ut quia, magni tempore, praesentium atque officiis cum quis voluptates fuga esse id nostrum placeat. Unde.
+                            </p>
+                        </li>
+                    </ul>
+                 </div>
+            </div>
+        </main>
+      </div>
+</body>
+</html>
