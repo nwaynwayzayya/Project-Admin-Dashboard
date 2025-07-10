@@ -1,6 +1,172 @@
-.menuItem,
-.menuIcon,
-.icons {
-    width: 20px;
-    height: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 18% 82%;
+}
+
+
+/* Sidebar section */
+.sidebar {
+    background-color: #0098df;
+    height: 100vh;
+    color: white;
+}
+
+/* Dashboard */
+.logo-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 29px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    gap: 12px;
+}
+
+.logo-text svg {
+    fill: white;
+    height: 50px;
+    width: 50px;
+}
+
+.logo-text h1 {
+    font-size: 30px;
+}
+
+/* List items */
+.icon-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 40px;
+    gap: 20px;
+}
+
+.icon-text svg {
+    fill: white;
+    height: 30px;
+    width: 30px;
+}
+
+.icon-text p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-items-bottom {
+    margin-top: 50px;
+}
+
+/* Main section */
+.main {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Main section - navbar section */
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+.form-input {
+    width: 850px;
+    height: 30px;
+    background-color: #d6dce4;
+    border-radius: 15px;
+    border: 1px solid #d6dce4;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.navbar svg {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar p {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
+/* Main section -- Welcome User and info part */
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 50px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.welcome-text p {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.welcome-text h3 {
+    font-size: 23px;
+}
+
+.right {
+    margin-right: 50px;
+}
+
+.welcome button {
+    background-color: #0098df;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 35px;
+    border: 1px solid #0098df;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+
+.content {
+    background-color: #d6dce4;
 }
