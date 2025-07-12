@@ -183,20 +183,12 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.cards-left {
-
-}
-
-.cards-right {
-
-}
-
 .card {
     background-color: white;
     border-left: 7px solid #facc15;
     border-radius: 7px;
     width: 90%;
-    height: 170px;
+    height: 174px;
     margin: 15px 0;
     margin-left: 20px;
     /* display: flex;
@@ -237,4 +229,85 @@ body {
 .icons svg {
     width: 22px;
     height: 22px;
+}
+
+
+/* Announcements and trending section */
+.ann-trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+/* Announcements */
+
+.ann-trend .ann h3 {
+    margin-top: 25px;
+}
+
+.ann-trend h3 {
+    margin-bottom: 14px;
+}
+
+.ann-trend .ann-card,
+.ann-trend .trend-card {
+    height: 75%;
+    width: 80%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.ann-card {
+    align-content: center;
+}
+
+.ann-text {
+    margin-left: 25px;
+}
+
+.ann-text h6 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.ann-text p {
+    color: gray;
+    font-size: 13px;
+}
+
+.divider {
+    border: 1px solid rgba(128, 128, 128, 0.493);
+    width: 90%;
+    justify-self: center;
+    margin: 8px 0;
+}
+
+/* Trends */
+.trend img {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.trend-card {
+    align-content: center;
+}
+
+.trend-image-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+}
+
+.trend h6 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.trend p {
+    font-size: 14px;
+    color: gray;
 }
